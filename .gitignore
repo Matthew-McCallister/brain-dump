@@ -1,0 +1,27 @@
+# Node
+node_modules/
+.env
+dist/
+*.log
+
+# Vite
+client/.vite/
+client/dist/
+
+# Prisma
+server/prisma/dev.db
+server/prisma/migrations/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Testing
+coverage/
+playwright-report/
+
+node_modules\n.env\n/prisma/dev.db\n/dist\n/client/dist\n
